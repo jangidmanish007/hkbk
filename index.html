@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offering Global-Standard Learning</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVBAR ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#" class="header-logo-link">
+        <img src="public/images/header-logo.svg" alt="HKBK Group of Institutions" class="header-logo" />
+      </a>
+      <nav class="header-nav">
+        <a href="#apply-now" class="btn header-apply-btn">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+  <!-- ===================== END HEADER ===================== -->
+
+  <!-- ===================== BANNER SECTION ===================== -->
+  <section class="banner-section">
+
+    <!-- Swiper Slider (background images only) -->
+    <div class="swiper banner-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('public/images/banner-slider-img-1.webp');"></div>
+        <div class="swiper-slide" style="background-image: url('public/images/banner-slider-img-2.webp');"></div>
+        <div class="swiper-slide" style="background-image: url('public/images/banner-slider-img-3.webp');"></div>
+        <div class="swiper-slide" style="background-image: url('public/images/banner-slider-img-4.webp');"></div>
+      </div>
+    </div>
+
+    <!-- Dark overlay -->
+    <div class="banner-overlay"></div>
+
+    <!-- Static content on top of slider -->
+    <div class="banner-content container position-relative">
+      <div class="d-lg-flex justify-content-bwtween gap-4">
+          <div class="banner-text-col text-lg-start text-center mb-lg-0 mb-4">
+          <span class="admissions-badge" id="slide-badge">ADMISSIONS OPEN 2026–27</span>
+          <p class="banner-tagline" id="slide-tagline">Have Knowledge · Be Knowledgeable</p>
+          <h1 class="banner-heading" id="slide-heading">
+            Where <em class="banner-italic fraunces-fonts">Brilliance</em><br>
+            Meets Purpose
+          </h1>
+          <p class="banner-desc" id="slide-desc">
+            Join 3,000+ students from 27+ nations building extraordinary
+            careers at Bangalore's most celebrated engineering college.
+          </p>
+          <div class="banner-btns justify-content-lg-start justify-content-center">
+            <a href="#apply-now" class="btn btn-explore">Explore Campus</a>
+            <a href="#apply-now" class="btn btn-apply-outline">Apply Now</a>
+          </div>
+
+          <!-- Company logos -->
+           <div class="companies-banner-bg mx-lg-0 mx-auto" id="slide-companies">
+             <div class="banner-logos">
+               <span class="logo-item">
+                 <img src="public/images/microsoft-icon.svg" alt="Microsoft" class="img-fluid" />
+               </span>
+               <span class="logo-item">
+                 <img src="public/images/ibm-icon.svg" alt="IBM" class="img-fluid" />
+               </span>
+               <span class="logo-item ">
+                 <img src="public/images/amazon-icon.svg" alt="Amazon" class="img-fluid" />
+               </span>
+               <span class="logo-item">
+                 <img src="public/images/google-icon.svg" alt="Google" class="img-fluid" />
+               </span>
+              </div>
+              
+              <!-- Badges -->
+               <div  class="my-3" style="border-top: 1px solid #898989;"></div>
+              <div class="banner-badges gap-4x">
+                <span class="badge-item"><img src="public/images/check-icon.svg" alt="check" class="badge-check-icon" /> Big Four Ready</span>
+                <span class="badge-item"><img src="public/images/check-icon.svg" alt="check" class="badge-check-icon" /> 100% Placement Support</span>
+              </div>
+            </div>
+          </div>
+          <div class=" ms-lg-auto banner-form-col" id="apply-now">
+          <div class="banner-form-card">
+            <h4 class="form-title mb-4">APPLY TODAY FOR</h4>
+            <div class="text-center">
+              <span class="btn btn-form-cta text-center">Start your learning with a free orientation session</span>
+            </div>
+            <form class="mt-3">
+              <div class="row g-2">
+                <div class="col-6">
+                  <input type="text" class="form-control form-input" placeholder="Student Name" />
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control form-input" placeholder="E Mail" />
+                </div>
+                <div class="col-12">
+                  <input type="tel" class="form-control form-input" placeholder="+91 - Student Mobile Number" />
+                </div>
+                <div class="col-6">
+                  <select class="form-select form-input">
+                    <option value="" disabled selected>Select DOB</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <select class="form-select form-input">
+                    <option value="" disabled selected>Student City</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <select class="form-select form-input">
+                    <option value="" disabled selected>Select Course</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <p class="form-consent">
+                    By submitting this form, I agree to receive notifications from the HKBK in the form of SMS/E-mail/Call.
+                  </p>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-apply-now w-100">APPLY NOW</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          </div>
+      </div> 
+
+    </div>
+  </section>
+  <!-- ===================== END BANNER SECTION ===================== -->
+
+  <!-- ===================== MARQUEE STRIP ===================== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span class="marquee-item">🌟VTU AFFILIATE</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟FORBES RECOGNISED GREAT INDIAN INSTITUTE</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟TOP 10 ENGINEERING COLLEGES — TIMES OF INDIA</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟AICTE APPROVED</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟VTU AFFILIATE</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟FORBES RECOGNISED GREAT INDIAN INSTITUTE</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟TOP 10 ENGINEERING COLLEGES — TIMES OF INDIA</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟AICTE APPROVED</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟VTU AFFILIATE</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟FORBES RECOGNISED GREAT INDIAN INSTITUTE</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟TOP 10 ENGINEERING COLLEGES — TIMES OF INDIA</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">🌟AICTE APPROVED</span>
+      <span class="marquee-dot"></span>
+    </div>
+  </div>
+  <!-- ===================== END MARQUEE STRIP ===================== -->
+
+  <!-- ===================== STATS SECTION ===================== -->
+  <section class="stats-section">
+    <div class="stats-container">
+      <!-- Card 1: Placement -->
+      <div class="stats-card">
+        <div class="stats-card-top">
+          <span class="stats-badge">PLACEMENT</span>
+          <img src="public/images/placement-icon.svg" alt="Placement" class="stats-icon" />
+        </div>
+        <div class="stats-number">94%</div>
+        <div class="stats-label">Placement<br>Rate</div>
+      </div>
+
+      <!-- Card 2: Package -->
+      <div class="stats-card">
+        <div class="stats-card-top">
+          <span class="stats-badge">PACKAGE</span>
+          <img src="public/images/package-icon.svg" alt="Package" class="stats-icon" />
+        </div>
+        <div class="stats-number">₹31.4 LPA</div>
+        <div class="stats-label">Highest<br>Package</div>
+      </div>
+
+      <!-- Card 3: Recruiters -->
+      <div class="stats-card">
+        <div class="stats-card-top">
+          <span class="stats-badge">RECRUITERS</span>
+          <img src="public/images/recruiters-icon.svg" alt="Recruiters" class="stats-icon" />
+        </div>
+        <div class="stats-number">150+</div>
+        <div class="stats-label">Hiring<br>Partners</div>
+      </div>
+
+      <!-- Card 4: Nations -->
+      <div class="stats-card">
+        <div class="stats-card-top">
+          <span class="stats-badge">NATIONS</span>
+          <img src="public/images/nations-icon.svg" alt="Nations" class="stats-icon" />
+        </div>
+        <div class="stats-number">27+</div>
+        <div class="stats-label">Nationalities</div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== END STATS SECTION ===================== -->
+
+  <!-- ===================== PROGRAMS DESIGNED SECTION ===================== -->
+    <section class="programs-section container px-lg-0 px-3" style="width: 100%;max-width: 1326px;">
+       <div class="main-programs-heading-wrap text-center">
+      <h2 class="main-programs-heading"><em class="fraunces-fonts main-programs-heading-italic">Featured In</em> <strong>Forbes</strong></h2>
+      <p class="main-programs-subtext">HKBK has been featured as a Great Indian Institute by Forbes, recognising our 28-year legacy of academic rigor, world-class infrastructure, and consistent placement excellence.</p>
+    </div>
+      <div class="programs-inner" style="background-image: url('public/images/program-designed-bg-img.webp');">
+        <div class="programs-bg-content text-center">
+          <!-- Stats row -->
+          <div class="programs-stats-row gap-4">
+            <div class="programs-stat-item text-start">
+              <div class="programs-stat-number">28 YRS</div>
+              <div class="programs-stat-label">Of Academic<br>Rigor</div>
+            </div>
+            <div class="programs-stat-item text-start programs-stat-dark">
+              <div class="programs-stat-number">NAAC</div>
+              <div class="programs-stat-label">AAA Accredited</div>
+            </div>
+            <div class="programs-stat-item text-start">
+              <div class="programs-stat-number">94%</div>
+              <div class="programs-stat-label">Placement<br>Excellence</div>
+            </div>
+          </div>
+          <!-- Section heading -->
+          <div class="programs-heading-wrap">
+            <h2 class="programs-heading"><em class="fraunces-fonts programs-heading-italic">Programs Designed</em> <strong>for the Future</strong></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion -->
+      <div class="programs-accordion-wrap mx-auto rounded-2">
+        <div class="container p-0" style="max-width:1326px;">
+          <div class="accordion programs-accordion" id="programsAccordion">
+
+            <!-- Item 01 -->
+            <div class="accordion-item programs-accordion-item prog-item px-lg-0 px-3 active">
+              <div class="prog-header" data-target="prog1">
+                <span class="prog-num jakarta-fonts">01</span>
+                <span class="prog-title-wrap">
+                  <span class="prog-name">Computer Science &amp; Engineering</span>
+                  <span class="prog-arrow">→</span>
+                </span>
+              </div>
+              <div id="prog1" class="prog-body-wrap">
+                <div class="accordion-body programs-accordion-body justify-content-between px-0 pb-4 pt-0">
+                <div class="d-flex pt-5">
+                  <span class="prog-num prog-num-body jakarta-fonts">01</span>
+                  <div class="prog-body-left">
+                    <span class="prog-badge">+ B.E / B.Tech · 4 Years</span>
+                    <h3 class="prog-body-title">Computer Science &amp; Engineering</h3>
+                    <div class="prog-divider"></div>
+                    <p class="prog-body-desc">Algorithms, data structures, software development, and cloud architecture. Build systems that power the world.</p>
+                    <p class="prog-body-meta">VTU Affiliated &nbsp;·&nbsp; Intake: 120</p>
+                    </div>
+                  </div>
+                  <div class="prog-body-images">
+                    <img src="public/images/faq-img-1.webp" alt="CSE students" />
+                    <img src="public/images/faq-img-2.webp" alt="CSE campus" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 02 -->
+            <div class="accordion-item programs-accordion-item prog-item px-lg-0 px-3">
+              <div class="prog-header" data-target="prog2">
+                <span class="prog-num jakarta-fonts">02</span>
+                <span class="prog-title-wrap">
+                  <span class="prog-name">AI &amp; Machine Learning</span>
+                  <span class="prog-arrow">→</span>
+                </span>
+              </div>
+              <div id="prog2" class="prog-body-wrap">
+                <div class="accordion-body programs-accordion-body justify-content-between px-0 pb-4 pt-0">
+                <div class="d-flex pt-5">
+                  <span class="prog-num prog-num-body jakarta-fonts">02</span>
+                 <div class="prog-body-left">
+                    <span class="prog-badge">+ B.E / B.Tech · 4 Years</span>
+                    <h3 class="prog-body-title">AI & Machine Learning</h3>
+                    <div class="prog-divider"></div>
+                    <p class="prog-body-desc">Deep learning, neural networks, computer vision, and NLP. Master the technologies reshaping every industry.</p>
+                    <p class="prog-body-meta">Industry Labs · Research Track</p>
+                    </div>
+                  </div>
+                  <div class="prog-body-images">
+                    <img src="public/images/faq-img-3.webp" alt="AI students" />
+                    <img src="public/images/faq-img-4.webp" alt="AI campus" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 03 -->
+            <div class="accordion-item programs-accordion-item prog-item px-lg-0 px-3">
+              <div class="prog-header" data-target="prog3">
+                <span class="prog-num jakarta-fonts">03</span>
+                <span class="prog-title-wrap">
+                  <span class="prog-name">Electronics &amp; Communication</span>
+                  <span class="prog-arrow">→</span>
+                </span>
+              </div>
+              <div id="prog3" class="prog-body-wrap">
+                <div class="accordion-body programs-accordion-body justify-content-between px-0 pb-4 pt-0">
+                <div class="d-flex pt-5">
+                  <span class="prog-num prog-num-body jakarta-fonts">03</span>
+                  <div class="prog-body-left">
+                    <span class="prog-badge">+ B.E / B.Tech · 4 Years</span>
+                    <h3 class="prog-body-title">Electronics & Communication</h3>
+                    <div class="prog-divider"></div>
+                    <p class="prog-body-desc">Embedded systems to 5G networks — design the hardware and protocols that connect the world.</p>
+                    <p class="prog-body-meta">VLSI Labs · IoT Track</p>
+                    </div>
+                  </div>
+                  <div class="prog-body-images">
+                    <img src="public/images/faq-img-5.webp" alt="ECE students" />
+                    <img src="public/images/faq-img-6.webp" alt="ECE campus" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 04 -->
+            <div class="accordion-item programs-accordion-item prog-item px-lg-0 px-3">
+              <div class="prog-header" data-target="prog4">
+                <span class="prog-num jakarta-fonts">04</span>
+                <span class="prog-title-wrap">
+                  <span class="prog-name">Information Science &amp; Engineering</span>
+                  <span class="prog-arrow">→</span>
+                </span>
+              </div>
+              <div id="prog4" class="prog-body-wrap">
+                <div class="accordion-body programs-accordion-body justify-content-between px-0 pb-4 pt-0">
+                <div class="d-flex pt-5">
+                  <span class="prog-num prog-num-body jakarta-fonts">04</span>
+                  <div class="prog-body-left">
+                    <span class="prog-badge">+ B.E / B.Tech · 4 Years</span>
+                    <h3 class="prog-body-title">Information Science &amp; Engineering</h3>
+                    <div class="prog-divider"></div>
+                    <p class="prog-body-desc">Data engineering, cybersecurity, and enterprise IT. Bridge data, systems, and intelligence.</p>
+                    <p class="prog-body-meta">Cybersecurity · Cloud Focus</p>
+                    </div>
+                  </div>
+                  <div class="prog-body-images">
+                    <img src="public/images/faq-img-7.webp" alt="ISE students" />
+                    <img src="public/images/faq-img-8.webp" alt="ISE campus" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 05 -->
+            <div class="accordion-item programs-accordion-item prog-item px-lg-0 px-3">
+              <div class="prog-header" data-target="prog5">
+                <span class="prog-num jakarta-fonts">05</span>
+                <span class="prog-title-wrap">
+                  <span class="prog-name">Mechanical Engineering</span>
+                  <span class="prog-arrow">→</span>
+                </span>
+              </div>
+              <div id="prog5" class="prog-body-wrap">
+                <div class="accordion-body programs-accordion-body justify-content-between px-0 pb-4 pt-0">
+                <div class="d-flex pt-5">
+                  <span class="prog-num prog-num-body jakarta-fonts">05</span>
+                  <div class="prog-body-left">
+                    <span class="prog-badge">+ B.E / B.Tech · 4 Years</span>
+                    <h3 class="prog-body-title">Mechanical Engineering</h3>
+                    <div class="prog-divider"></div>
+                    <p class="prog-body-desc">Thermodynamics, robotics, manufacturing, and sustainable design — shape the physical world.</p>
+                    <p class="prog-body-meta">CAD/CAM Labs · Robotics Club</p>
+                    </div>
+                  </div>
+                  <div class="prog-body-images">
+                    <img src="public/images/faq-img-9.webp" alt="ME students" />
+                    <img src="public/images/faq-img-10.webp" alt="ME campus" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- ===================== END PROGRAMS DESIGNED SECTION ===================== -->
+
+  <!-- ===================== AWARDS & RECOGNITIONS SECTION ===================== -->
+  <section class="awards-section">
+    <div class="awards-container">
+      <div class="awards-heading-wrap text-center">
+        <h2 class="awards-heading"><strong>Awards &amp;</strong> <em class="fraunces-fonts awards-heading-italic">Recognitions</em></h2>
+        <p class="awards-subtext">Excellence Acknowledged by Industry Leaders</p>
+      </div>
+
+      <div class="awards-grid">
+
+        <!-- Row 1 -->
+        <div class="awards-row">
+          <!-- HRDC -->
+          <div class="award-item">
+            <div class="award-logo-wrap">
+              <img src="public/images/ttoi-img.webp" alt="ttoi" class="award-logo" />
+            </div>
+            <div class="award-rank">
+              <span class="award-ranked-label">Ranked</span>
+              <span class="award-rank-number">#10</span>
+            </div>
+            <div class="award-desc">Top 10 Engineering Colleges in Bangalore</div>
+          </div>
+
+          <div class="award-divider-v"></div>
+
+          <!-- Forbes -->
+          <div class="award-item">
+            <div class="award-logo-wrap">
+              <img src="public/images/si-img.webp" alt="Forbes" class="award-logo" />
+            </div>
+           <div class="award-rank">
+              <span class="award-ranked-label">Ranked</span>
+              <span class="award-rank-number">#7</span>
+            </div>
+            <div class="award-desc">7th Best Engineering College, Karnataka</div>
+          </div>
+        </div>
+
+        <div class="awards-row-divider" style="height: 1px; width: 100%; border-bottom: 1px solid #000000;" ></div>
+
+        <!-- Row 2 -->
+        <div class="awards-row">
+          <!-- HRDC -->
+          <div class="award-item">
+            <div class="award-logo-wrap">
+              <img src="public/images/hrdc-img.webp" alt="HRDC" class="award-logo" />
+            </div>
+            <div class="award-rank">
+              <span class="award-ranked-label">Ranked</span>
+              <span class="award-rank-number">#22</span>
+            </div>
+            <div class="award-desc">22nd Best Engineering College in India</div>
+          </div>
+
+          <div class="award-divider-v"></div>
+
+          <!-- Forbes -->
+          <div class="award-item">
+            <div class="award-logo-wrap">
+              <img src="public/images/forbes-img.webp" alt="Forbes" class="award-logo" />
+            </div>
+            <div class="award-rank">
+              <span class="award-ranked-label award-ranked-label--text">Forbes<br>Magazine</span>
+            </div>
+            <div class="award-desc">"Great Indian Institute" Recognition</div>
+          </div>
+        </div>
+
+        <div class="awards-row-divider"  style="height: 1px; width: 100%; border-bottom: 1px solid #000000;" ></div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ===================== END AWARDS & RECOGNITIONS SECTION ===================== -->
+
+ 
+
+  <!-- ===================== PLACEMENTS SECTION ===================== -->
+  <section class="placements-section px-0">
+    <div class="placements-container px-3">
+      <!-- Top content -->
+      <div class="placements-top d-flex">
+        <div class="placements-top-left">
+          <span class="placements-eyebrow">Career Success</span>
+          <h2 class="placements-heading"><em class="fraunces-fonts placements-heading-italic">Placements</em> <strong>That<br>Define Careers</strong></h2>
+          <a href="#apply-now" class="btn btn-placement-apply">APPLY NOW &nbsp;&#8594;</a>
+        </div>
+        <div class="placements-top-right">
+          <div class="placements-stats-row">
+            <div class="placement-stat-card card-1">
+              <div class="placement-stat-num red">94%</div>
+              <div class="placement-stat-label">Placement Rate</div>
+            </div>
+            <div class="placement-stat-card card-2">
+              <div class="placement-stat-num">6.4 LPA</div>
+              <div class="placement-stat-label">Average Package</div>
+            </div>
+            <div class="placement-stat-card highlight ">
+              <div class="placement-stat-num">₹31.4 LPA</div>
+              <div class="placement-stat-label">Highest Package</div>
+            </div>
+            <div class="placement-stat-card card-4">
+              <div class="placement-stat-num">150+</div>
+              <div class="placement-stat-label">Hiring Partners</div>
+            </div>
+          </div>
+          <p class="placements-desc">HKBK's dedicated placement cell works year-round to ensure students walk into outstanding careers — from aptitude training and mock interviews to live industry exposure.</p>
+        </div>
+      </div>
+    </div>
+      <!-- Companies Logo Slider -->
+      <div class="companies-logo-slider-wrap position-relative">
+        <div class="absolute-1 position-absolute start-0 top-0 d-lg-block d-none" 
+        style="width: 310px;
+        z-index: 2;
+        height: 116px;
+        background: linear-gradient(90deg, #FFF 65%, rgba(255, 255, 255, 0.50) 90%, rgba(255, 255, 255, 0.00) 100%);
+        filter: blur(2.5px);
+        "></div>
+         <div class="absolute-2 position-absolute end-0 top-0  d-lg-block d-none" 
+        style="width: 310px;
+        z-index: 2;
+        height: 116px;
+        background: linear-gradient(270deg, #FFF 65%, rgba(255, 255, 255, 0.50) 90%, rgba(255, 255, 255, 0.00) 100%);
+        filter: blur(2.5px);
+        "></div>
+        <div class="swiper companies-logo-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/adobe-logo.svg" alt="Adobe" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/google-logo.svg" alt="Google" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/amazon-logo.svg" alt="Amazon" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/microsoft-logo.svg" alt="Microsoft" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/ibm-logo.svg" alt="IBM" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/infosys-logo.svg" alt="Infosys" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/accenture-logo.svg" alt="Accenture" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/capgemini-logo.svg" alt="Capgemini" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/cisco-logo.svg" alt="Cisco" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/cognizant-logo.svg" alt="Cognizant" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/intel-logo.svg" alt="Intel" /></div>
+            <div class="swiper-slide companies-logo-slide"><img src="public/images/tech-mehindra-logo.svg" alt="Tech Mahindra" /></div>
+          </div>
+        </div>
+      </div>
+      <!-- Placement Cards Slider -->
+       <div class="placements-container-2">
+      <div class="placement-cards-slider-wrap">
+        <button class="placement-arrow placement-arrow-prev" aria-label="Previous">&#8249;</button>
+        <div class="swiper placement-cards-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="placement-card">
+                <img src="public/images/placement-1-img.webp" alt="Kenisha Singh" class="placement-card-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="placement-card">
+                <img src="public/images/placement-2-img.webp" alt="Sejal Kumari Gupta" class="placement-card-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="placement-card">
+                <img src="public/images/placement-3-img.webp" alt="Suresh Datt Joshi" class="placement-card-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="placement-card">
+                <img src="public/images/placement-4-img.webp" alt="Priya Sharma" class="placement-card-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="placement-card">
+                <img src="public/images/placement-1-img.webp" alt="Rahul Verma" class="placement-card-img" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="placement-card">
+                <img src="public/images/placement-2-img.webp" alt="Anjali Nair" class="placement-card-img" />
+              </div>
+            </div>
+          </div>
+        </div><div class="placement-cards-pagination swiper-pagination"></div>
+        <button class="placement-arrow placement-arrow-next" aria-label="Next">&#8250;</button>
+      </div>
+   </div>
+  </section>
+  <!-- ===================== END PLACEMENTS SECTION ===================== -->
+
+   <!-- ===================== ALUMNI TESTIMONIALS SECTION ===================== -->
+  <section class="alumni-section">
+    <div class="alumni-container">
+
+      <!-- Heading -->
+      <div class="alumni-heading-wrap text-center">
+        <h2 class="alumni-heading">What Our <em class="fraunces-fonts alumni-heading-italic">Alumni</em> Say</h2>
+      </div>
+
+      <!-- Grid -->
+      <div class="alumni-grid">
+
+        <!-- Left: full-height image with stats overlay -->
+        <div class="alumni-left">
+          <img src="public/images/left-full-img.webp" alt="HKBK Alumni" class="alumni-left-img" />
+          <div class="alumni-stats-overlay">
+            <div class="alumni-stat">
+              <span class="alumni-stat-num">25000+</span>
+              <span class="alumni-stat-label">Alumni</span>
+            </div>
+            <div class="alumni-stat">
+              <span class="alumni-stat-num">29 YRS</span>
+              <span class="alumni-stat-label">Of Academic Rigor</span>
+            </div>
+            <div class="alumni-stat">
+              <span class="alumni-stat-num">NAAC</span>
+              <span class="alumni-stat-label">Accredited</span>
+            </div>
+            <div class="alumni-stat">
+              <span class="alumni-stat-num">NBA</span>
+              <span class="alumni-stat-label">Accredited</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 2x2 testimonial cards -->
+        <div class="alumni-cards-grid">
+
+          <!-- Card 1 -->
+          <div class="alumni-card">
+            <img src="public/images/testimonial-img-1.webp" alt="Ayesha Rehman" class="alumni-card-avatar" />
+            <p class="alumni-card-quote">"When I first stepped onto this campus, I was skeptical. Four years later, I left with a dream job and confidence I never thought possible. The faculty here genuinely cares about each student's growth."</p>
+            <div class="alumni-card-footer">
+              <span class="alumni-card-name">Ayesha Rehman</span>
+              <span class="alumni-card-role">Software Engineer, Google · CSE 2023</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="alumni-card">
+            <img src="public/images/testimonial-img-2.webp" alt="Karthik Venkatesh" class="alumni-card-avatar" />
+            <p class="alumni-card-quote">"The AI &amp; ML program at HKBK is cutting-edge. The labs, the projects, the industry exposure — everything prepared me for the competitive tech world. I secured my offer before graduation."</p>
+            <div class="alumni-card-footer">
+              <span class="alumni-card-name">Karthik Venkatesh</span>
+              <span class="alumni-card-role">ML Engineer, Amazon · AIML 2024</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="alumni-card">
+            <img src="public/images/testimonial-img-3.webp" alt="Siddharth Pillai" class="alumni-card-avatar" />
+            <p class="alumni-card-quote">"Being from Bangalore, studying at HKBK meant I had internship access at Manyata Tech Park from Year 2. The Bangalore Edge is real — it gave me a head start no other college could offer."</p>
+            <div class="alumni-card-footer">
+              <span class="alumni-card-name">Siddharth Pillai</span>
+              <span class="alumni-card-role">Business Analyst, Wipro · MBA 2023</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="alumni-card">
+            <img src="public/images/testimonial-img-4.webp" alt="Aqib" class="alumni-card-avatar" />
+            <p class="alumni-card-quote">"Since I am from Bangalore, I decided to pursue my technical education from an eminent engineering college. Subsequent to campus visits came the final decision of enrollment. In retrospect I think it was a good decision."</p>
+            <div class="alumni-card-footer">
+              <span class="alumni-card-name">Aqib</span>
+              <span class="alumni-card-role">Business Analyst, Wipro · MBA 2023</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== END ALUMNI TESTIMONIALS SECTION ===================== -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-container">
+
+        <!-- Col 1: Logo + description -->
+        <div class="footer-col footer-col-brand">
+          <a href="#" class="footer-logo-link">
+            <img src="public/images/logo.svg" alt="HKBK Group of Institutions" class="footer-logo" />
+          </a>
+          <p class="footer-brand-desc">Forbes recognised. NAAC accredited. 28 years of engineering excellence in the heart of Bangalore's innovation ecosystem.</p>
+        </div>
+
+        <!-- Col 2: Contact Us -->
+        <div class="footer-col footer-col-contact">
+          <h4 class="footer-col-title">CONTACT US</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <img src="public/images/location-icon.svg" alt="Location" class="footer-contact-icon" />
+              <span>22/1, Opp. Manyata Tech Park, Nagawara,<br>Bangalore – 560045</span>
+            </li>
+            <li class="footer-contact-item">
+              <img src="public/images/phone-icon.svg" alt="Phone" class="footer-contact-icon" />
+              <span><a href="tel:+919035022250" class="text-decoration-none" style="color: rgba(255, 255, 255, 0.7);
+;">+91 9035022250</a> | <a href="tel:08025441722" class="text-decoration-none" style="color: rgba(255, 255, 255, 0.7);
+;">080-25441722</a></span>
+            </li>
+            <li class="footer-contact-item">
+              <img src="public/images/email-icon.svg" alt="Email" class="footer-contact-icon" />
+              <a href="mailto:info@hkbk.edu.in" class="footer-email-link">info@hkbk.edu.in</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Accreditation -->
+        <div class="footer-col footer-col-accreditation">
+          <h4 class="footer-col-title">ACCREDITATION</h4>
+          <ul class="footer-accreditation-list">
+            <li class="footer-accreditation-item">AICTE</li>
+            <li class="footer-accreditation-item">VTU</li>
+            <li class="footer-accreditation-item">NAAC</li>
+            <li class="footer-accreditation-item">FORBES</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p class="footer-copyright">© 2026 HKBK College of Engineering. All rights reserved.</p>
+        <p class="footer-credit">Designed and Developed by Mediagarh</p>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== END FOOTER ===================== -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Sticky header scroll effect
+    (function () {
+      const header = document.getElementById('siteHeader');
+      function onScroll() {
+        if (window.scrollY > 10) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
+
+  <script>
+    // Custom accordion — no close on re-click, smooth height animation
+    (function () {
+      const items = document.querySelectorAll('.prog-item');
+
+      // Set initial heights for all body wraps
+      items.forEach(item => {
+        const body = item.querySelector('.prog-body-wrap');
+        if (item.classList.contains('active')) {
+          body.style.maxHeight = body.scrollHeight + 'px';
+        } else {
+          body.style.maxHeight = '0px';
+        }
+      });
+
+      items.forEach(item => {
+        const header = item.querySelector('.prog-header');
+        header.addEventListener('click', () => {
+          // If already active, do nothing
+          if (item.classList.contains('active')) return;
+
+          // Close current active
+          const currentActive = document.querySelector('.prog-item.active');
+          if (currentActive) {
+            currentActive.classList.remove('active');
+            currentActive.querySelector('.prog-body-wrap').style.maxHeight = '0px';
+          }
+
+          // Open clicked
+          item.classList.add('active');
+          const body = item.querySelector('.prog-body-wrap');
+          body.style.maxHeight = body.scrollHeight + 'px';
+        });
+      });
+    })();
+  </script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    // Per-slide content — index matches swiper slide order
+    const logosAndBadges = `
+      <div class="banner-logos">
+        <span class="logo-item"><img src="public/images/microsoft-icon.svg" alt="Microsoft" class="img-fluid" /></span>
+        <span class="logo-item"><img src="public/images/ibm-icon.svg" alt="IBM" class="img-fluid" /></span>
+        <span class="logo-item"><img src="public/images/amazon-icon.svg" alt="Amazon" class="img-fluid" /></span>
+        <span class="logo-item"><img src="public/images/google-icon.svg" alt="Google" class="img-fluid" /></span>
+      </div>
+      <div class="my-3" style="border-top: 1px solid #898989;"></div>
+      <div class="banner-badges gap-4x">
+        <span class="badge-item"><img src="public/images/check-icon.svg" alt="check" class="badge-check-icon" /> Big Four Ready</span>
+        <span class="badge-item"><img src="public/images/check-icon.svg" alt="check" class="badge-check-icon" /> 100% Placement Support</span>
+      </div>`;
+
+    const forbesLogos = `
+      <div class="banner-logos">
+        <span class="logo-item"><img src="public/images/forbes-logo-1.svg" alt="Forbes" class="img-fluid" style="height:32px;width:auto;" /></span>
+        <span class="logo-item" style="border-left:1px solid #898989;padding-left:16px;"><img src="public/images/forbes-logo-2.svg" alt="Times of India" class="img-fluid" style="height:32px;width:auto;" /></span>
+      </div>`;
+
+    const slideContent = [
+      {
+        badge:     'ADMISSIONS OPEN 2026–27',
+        tagline:   'Have Knowledge · Be Knowledgeable',
+        heading:   'Where <em class="banner-italic fraunces-fonts">Brilliance</em><br>Meets Purpose',
+        desc:      'Join 3,000+ students from 27+ nations building extraordinary careers at Bangalore\'s most celebrated engineering college.',
+        companies: logosAndBadges,
+      },
+      {
+        badge:     '14-Acre Campus · Bangalore',
+        tagline:   'Innovation · Excellence · Leadership',
+        heading:   'A <em class="banner-italic fraunces-fonts">Campus</em> Built for <br> Tomorrow',
+        desc:      `Innovative labs, sports facilities, and hostels on a vibrant campus in India's Silicon Valley.`,
+        companies: logosAndBadges,
+      },
+      {
+        badge:     '14-Acre Campus · Bangalore',
+        tagline:   'Research · Discovery · Impact',
+        heading:   '<em class="banner-italic fraunces-fonts">Featured</em> In Leading<br> National Rankings',
+        desc:      'HKBK College of Engineering continues to earn recognition for excellence in education, placements, and industry readiness.',
+        companies: forbesLogos,
+      },
+      {
+        badge:     '14-Acre Campus · Bangalore',
+        tagline:   'Community · Growth · Success',
+        heading:   '<em class="banner-italic fraunces-fonts">Outstanding </em> <br> Placement',
+        desc:      '94.3% of students successfully placed in reputed organizations. Graduates securing careers with top MNCs and Big 4 companies.',
+        companies: '',
+      },
+    ];
+
+    const elBadge     = document.getElementById('slide-badge');
+    const elTagline   = document.getElementById('slide-tagline');
+    const elHeading   = document.getElementById('slide-heading');
+    const elDesc      = document.getElementById('slide-desc');
+    const elCompanies = document.getElementById('slide-companies');
+    const textCol     = document.querySelector('.banner-text-col');
+
+    function updateContent(index) {
+      const data = slideContent[index % slideContent.length];
+
+      // Animate out
+      textCol.classList.remove('slide-content-active');
+      textCol.classList.add('slide-content-exit');
+
+      setTimeout(() => {
+        // Swap content
+        elBadge.textContent   = data.badge;
+        elTagline.textContent = data.tagline;
+        elHeading.innerHTML   = data.heading;
+        elDesc.textContent    = data.desc;
+        elCompanies.innerHTML = data.companies;
+        elCompanies.style.display = data.companies ? '' : 'none';
+
+        // Animate in
+        textCol.classList.remove('slide-content-exit');
+        textCol.classList.add('slide-content-active');
+      }, 300);
+    }
+
+    // Companies logo slider
+    new Swiper('.companies-logo-swiper', {
+      loop: true,
+      autoplay: { delay: 0, disableOnInteraction: false },
+      speed: 3000,
+      slidesPerView: 2,
+      spaceBetween: 40,
+      freeMode: true,
+      breakpoints: {
+        480:  { slidesPerView: 3, spaceBetween: 40 },
+        768:  { slidesPerView: 4, spaceBetween: 60 },
+        1024: { slidesPerView: 5, spaceBetween: 80 },
+        1280: { slidesPerView: 6, spaceBetween: 80 },
+      },
+    });
+
+    // Placement cards slider
+    const placementSwiper = new Swiper('.placement-cards-swiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 16,
+      grabCursor: true,
+      pagination: {
+        el: '.placement-cards-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.placement-arrow-next',
+        prevEl: '.placement-arrow-prev',
+      },
+      breakpoints: {
+        480:  { slidesPerView: 1.2, spaceBetween: 16 },
+        640:  { slidesPerView: 2, spaceBetween: 20 },
+        1024: { slidesPerView: 3, spaceBetween: 24 },
+      },
+    });
+
+    const bannerSwiper = new Swiper('.banner-swiper', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      on: {
+        init(swiper) {
+          textCol.classList.add('slide-content-active');
+        },
+        slideChange(swiper) {
+          updateContent(swiper.realIndex);
+        },
+      },
+    });
+  </script>
+
+</body>
+</html>
+
+
