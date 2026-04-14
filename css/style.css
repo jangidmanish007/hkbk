@@ -2597,3 +2597,11 @@ BANNER SECTION — CTA BUTTONS
     font-size: 11px;
   }
 }
+
+
+/* Hide any default Swiper pagination/navigation on banner */
+.banner-swiper .swiper-pagination,
+.banner-swiper .swiper-button-next,
+.banner-swiper .swiper-button-prev {
+  display: none !important;
+}
